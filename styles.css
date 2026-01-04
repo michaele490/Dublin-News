@@ -4,7 +4,11 @@ body {
 
 h1 {
   font-family: Tagesschrift, serif;
-  font-size: 2.7rem;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.85rem;
 }
 
 h2, h3 {
@@ -15,11 +19,20 @@ article p {
   font-family: Tinos;
 }
 
+.feature-article, .secondary-article {
+  font-size: 1.2rem;
+  background-color: #f7fff7;
+  border: 1px solid grey;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
 .newspaper-layout {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto 1fr 1fr 1fr;
-  gap: 0px;
+  gap: 7px;
   grid-template-areas: 
     "title title title"
     "feature-article feature-article cover-image"
@@ -54,4 +67,18 @@ article p {
 
 .small-article3 {
   grid-area: small-article3;
+}
+
+h3 {
+  font-size: 1rem;
+}
+.small-article1 p, .small-article2 p, .small-article3 p {
+  font-size: 0.95rem;
+}
+
+.small-article1, .small-article2, .small-article3 {
+  background-color: white;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 5px;
 }
