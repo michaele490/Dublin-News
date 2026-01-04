@@ -58,6 +58,10 @@ article p {
   grid-area: cover-image;
 }
 
+.cover-image img {
+  max-width: 100%;
+}
+
 .small-article1 {
   grid-area: small-article1;
 }
@@ -72,9 +76,6 @@ article p {
 
 h3 {
   font-size: 1rem;
-}
-.small-article1 p, .small-article2 p, .small-article3 p {
-  /*font-size: 0.95rem;*/
 }
 
 .small-article1, .small-article2, .small-article3 {
